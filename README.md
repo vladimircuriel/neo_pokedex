@@ -1,55 +1,69 @@
-# Neo Pokedex
+<h1 align="center">
+   Neo Pokédex - Mobile Pokédex App
+</h1>
 
-Neo Pokédex es una aplicación móvil que permite a los usuarios buscar y ver información sobre los pokemones. La aplicación utiliza la API de [PokéAPI](https://pokeapi.co/) para obtener la información de los pokemones, pero utilizando la versión de GraphQL.
+<p align="center"> 
+  <img src="https://github.com/user-attachments/assets/21f23e51-a10d-46e6-b7b9-700d2cb32f1f" alt="neo-pokedex" width="100"/>
+</p>
 
-## Descripción
+<div align="center">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/GraphQL-DA0093?style=for-the-badge&logo=graphql&logoColor=white" />
+  <img src="https://img.shields.io/badge/graphql_flutter-1a1a1a?style=for-the-badge&logo=graphql&logoColor=DA0093" />
+  <img src="https://img.shields.io/badge/Hive-FCCA3E?style=for-the-badge&logo=hive&logoColor=000000" />
+  <img src="https://img.shields.io/badge/shared_preferences-333333?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/flutter_animate-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/share_plus-000000?style=for-the-badge&logo=share&logoColor=white" />
+  <img src="https://img.shields.io/badge/cached_network_image-1a1a1a?style=for-the-badge&logo=flutter&logoColor=white" />
+</div>
 
-Este proyecto consiste en el desarrollo de una aplicación móvil interactiva y visualmente atractiva para los fanáticos de Pokémon. La app permitirá a los usuarios explorar y descubrir detalles de diferentes Pokémon a través de una interfaz fácil de usar. Aquí está una descripción de lo que se podrá hacer en la aplicación:
+---
 
-### Explorar la Lista de Pokémon:
-Los usuarios podrán ver una lista completa de Pokémon, con sus nombres, imágenes y tipos. La lista se mostrará de manera visual y accesible, permitiendo una navegación sencilla.
-
-### Buscar Pokémon Específicos:
-Mediante una barra de búsqueda intuitiva, los usuarios podrán buscar Pokémon por su nombre o número, facilitando la búsqueda de sus favoritos o de aquellos de los que quieran saber más.
-
-### Detalles Completos de Cada Pokémon:
-
-Al seleccionar un Pokémon de la lista, se abrirá una pantalla de detalles que mostrará toda la información relevante, como nombre, tipo, estadísticas (como HP, ataque, defensa, etc.), habilidades, evoluciones y movimientos. Los usuarios podrán explorar en profundidad las características de cada Pokémon.
-
-### Marcar Favoritos:
-
-Los usuarios podrán marcar ciertos Pokémon como favoritos para crear una lista personalizada que podrán consultar fácilmente en cualquier momento.
-
-### Integración con GraphQL:
-
-La aplicación estará conectada con la API de GraphQL de PokeAPI para obtener datos de Pokémon en tiempo real, lo que garantiza que la información esté siempre actualizada. Se realizarán consultas optimizadas con paginación para obtener tanto la lista como los detalles de los Pokémon, manteniendo la eficiencia y la rapidez.
-
-### Navegación Fluida y Amigable:
-
-Los usuarios podrán navegar fácilmente entre la lista de Pokémon y la pantalla de detalles, con transiciones suaves y naturales que mejoren la experiencia de uso.
-
-### Filtrado y Ordenación de Pokémon:
-
-La app permitirá a los usuarios filtrar Pokémon por diversos criterios, como tipo, generación, habilidades o poder. También podrán ordenar la lista por atributos específicos, como número, nombre o habilidades, para encontrar rápidamente el Pokémon que buscan.
-
-### Compartir Información de Pokémon:
-
-Cada usuario podrá compartir los detalles de sus Pokémon favoritos en forma de “Pokémon Card” en redes sociales o mediante otros medios de comunicación, para mostrar sus descubrimientos y Pokémon favoritos a amigos y seguidores.
-
-### Animaciones y Transiciones:
-
-La aplicación incorporará animaciones y transiciones atractivas para acciones clave, como agregar Pokémon a favoritos o navegar entre pantallas, lo que brindará una experiencia de uso más fluida y dinámica.
-
-### Persistencia de Datos Locales:
-
-Para mejorar la experiencia de usuario, la app guardará la lista de Pokémon favoritos localmente en el dispositivo usando paquetes de almacenamiento como shared_preferences, lo que permitirá acceso sin conexión a los Pokémon favoritos.
-
-### Interfaz de Usuario Personalizada:
-
-El diseño de la app será atractivo y visualmente agradable, con elementos gráficos que harán que la app destaque. Se incluirán detalles estéticos y elementos adicionales que contribuyan a una experiencia inmersiva y entretenida.
+**Neo Pokédex** is a cross-platform mobile application built with **Flutter** and **Dart**. It provides a complete interface for exploring detailed Pokémon information by consuming the PokeAPI through **GraphQL**. The app lets users browse the full Pokémon list, view stats and evolutions, search by name or number, and save favorites locally.
 
 
-## Integrantes
+- [Features](#features)
+- [Application](#application)
+- [Tools Used](#tools-used)
+- [Areas for Improvement](#areas-for-improvement)
 
-- [Vladimir Curiel](https://github.com/NightmareVCO)
-- [Natasha López](https://github.com/Natashalopez05)
+
+## Features
+  
+### Pokémon Browser & Details
+- List screen showing each Pokémon with name, image, and types.  
+- Search bar supporting lookup by name or Pokédex number.  
+- Detailed screen displaying stats, abilities, evolutions, and moves.  
+- Favorite system allowing users to save custom Pokémon lists locally.
+
+### GraphQL Integration
+- Optimized GraphQL queries for list pagination and detailed Pokémon data.  
+- Uses the **graphql_flutter** package to fetch real-time data from the PokeAPI GraphQL endpoint.
+
+### Navigation & UX
+- Smooth transitions between list and detail screens with animations.  
+- Advanced filtering and sorting: type, generation, abilities, power, and base stats.  
+- Clean layout with UI enhancements and animated elements.
+
+## Application
+
+https://github.com/user-attachments/assets/0963226c-06cf-4aae-99ff-37ae61c3dfe3
+
+## Tools Used
+
+- ![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white&style=flat-square) **Flutter**: Cross-platform UI framework powering the interface and animations.  
+- ![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white&style=flat-square) **Dart**: Language used for app logic, state handling, and GraphQL interactions.  
+- ![GraphQL](https://img.shields.io/badge/GraphQL-DA0093?logo=graphql&logoColor=white&style=flat-square) **GraphQL (graphql_flutter)**: Fetches Pokémon data efficiently with queries for lists and details.  
+- ![Hive](https://img.shields.io/badge/Hive-FCCA3E?logo=hive&logoColor=000000&style=flat-square) **Hive**: Lightweight local database used to store favorites and offline data.  
+- ![shared_preferences](https://img.shields.io/badge/shared_preferences-333333?logo=flutter&logoColor=white&style=flat-square) **shared_preferences**: Stores quick local flags and user preferences.  
+- ![flutter_animate](https://img.shields.io/badge/flutter_animate-02569B?logo=flutter&logoColor=white&style=flat-square) **flutter_animate**: Provides smooth and expressive animations across the app.  
+- ![share_plus](https://img.shields.io/badge/share_plus-000000?logo=share&logoColor=white&style=flat-square) **share_plus**: Enables sharing Pokémon cards with other apps.  
+- ![cached_network_image](https://img.shields.io/badge/cached_network_image-1a1a1a?logo=flutter&logoColor=white&style=flat-square) **cached_network_image**: Handles efficient image loading and caching for Pokémon sprites.
+
+## Areas for Improvement
+
+- Offline mode applies only to favorites; expanding offline browsing would improve reliability.  
+- Evolutions and moves could include interactive diagrams or animations.  
+- No built-in analytics to track user activity or search patterns.  
+- No cloud sync; favorites remain local to the device.
